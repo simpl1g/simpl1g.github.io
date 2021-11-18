@@ -1,0 +1,12 @@
+entries:
+  - title: me
+    url: /about
+    entries:
+      - title: github
+        url: https://github.com/simpl1g
+      - title: mail
+        url: mailto:konstantin@ilchenko.by
+  - title: posts
+    post_list: true
+    url: false
+    entries: false

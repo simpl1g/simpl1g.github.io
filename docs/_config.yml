@@ -1,0 +1,25 @@
+title: simpl1g's blog
+email: konstantin@ilchenko.by
+description: >- # this means to ignore newlines until "baseurl:"
+  A blog about Ruby, ClickHouse, and everything else about development.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "blog.ilchenko.by" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  simpl1g
+
+remote_theme: riggraz/no-style-please
+
+goat_counter: simpl1g
+theme_config:
+  appearance: "auto"
+  back_home_text: "Back"
+  date_format: "%Y-%m-%d"
+  show_description: false
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-last-modified-at
+  - jekyll-sitemap
